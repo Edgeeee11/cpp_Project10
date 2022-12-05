@@ -4,8 +4,6 @@
 main() 
 {
 	int mas[7];
-	int n;
-	int mass[100];
 	
 	for(int i=0;i<7;i++)
 	{
@@ -17,8 +15,17 @@ main()
 		printf("%2i\n", mas[i]);
 	}
 	
+	int n;
+	int a;
+	
+	printf("vvedite razmer massiva");
+	scanf("%i", &a);
+	
+	int mass[a];
+	
 	printf("kolitchestvo elementov");
 	scanf("%i", &n);
+
 	
 	for(int i=0;i<n;i++)
 	{
